@@ -1,0 +1,66 @@
+
+/**
+ * 
+ * TIC TAC TOE
+ */
+
+/**
+ * COSAS A IMPLEMENTAR:
+ * - No poner mas fichas
+ * - Contador de puntuación por equipo
+ * - Reinicio tablero para volver a jugar  (Crear una function)
+ * - Mostrar color línea ganadora (Crear un condicional)
+ * - Contador de tiempo para cambiar turno si se agota el tiempo (Crear una funcion para que inicie cuando se pone la primera ficha hasta la siguiente)
+ * - Unificar dos funciones que hagan lo mismo, en una (Ganar_X y Ganar_O en una funcion ganador(X, O))
+ * - Comentario en las cabeceras de las funciones (@param, @return)
+ * - Creación de las variables arriba del código (Buenas prácticas con variables) 
+ * - No errores en consola
+ * - Estilos (Diseño ingenioso)
+ * - GitHub
+ */
+
+/**
+ * Pasos a tener en cuenta:
+ * Agregar clicks (En class='casilla')
+ * Cambiar de turno (Utilizar un boolean al tener solo dos opciones en las que elegir)
+ * 
+ */
+
+/**
+ * Variable que tiene la información del turno de cada jugador
+ * - True juega las X
+ * - False juega las O
+ * 
+ * Empezamos inicializando en true para que pinten las X
+ */
+ /**
+ * [0, 1, 2]
+ * [3, 4, 5]
+ * [6, 7, 8]
+ *
+ * Todas las casillas tienen la clase .casilla
+ * Utilizamos la variable 'tablero' que contiene n array con todas las casillas
+ * Para ello usamos la función 'getElementByClassName('casilla');
+ */
+// let tablero = [
+//<div class='casilla'>,<div class='casilla,><div class='casilla'>
+//<div class='casilla',><div class='casilla,><div class='casilla'>
+//<div class='casilla',><div class='casilla,><div class='casilla'>
+// ];
+
+/**
+ * Es necesario generar los enventos de click para todas las casillas de mi tablero.
+ * Para ello usamos el evento click que invoque una función para pintar en función del turno. Dos opciones.
+ *  a) Recorrer tablero y hacer un setAttribute('onclick', pintaCasilla(posicion));
+ *  b) Recorrer tablero y crear un Listener que realcione el 'click' con la llamada a la función pintaCasilla(posicion);
+ */
+ /**
+ * Recibo la posición del array TABLERO donde quiero pintar (textContent)
+ */
+ /**
+ * 
+ * Comprobamos si hay alguna combinación ganadora
+ *  
+ */
+
+//Arrays para almacenar la posición que pulso.
